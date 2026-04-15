@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Notícias</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de Notícias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="lista.html">Lista</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="https://www.exemplo.com" target="_blank">Link Externo</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <table border="1">
+            <tr>
+                <th>Categoria</th>
+                <th>Título</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>Front-end</td>
+                <td>CSS Zen Garden</td>
+                <td><a href="editar.html">Editar</a> | <a href="apagar.html">Apagar</a></td>
+            </tr>
+            <tr>
+                <td>Back-end</td>
+                <td>PHP: Hypertext Preprocessor</td>
+                <td><a href="editar.html">Editar</a> | <a href="apagar.html">Apagar</a></td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Seu Nome</p>
+    </footer>
+</body>
+</html>
