@@ -1,36 +1,55 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias sobre Desenvolvimento Web</title>
+</head>
+<body>
+    <header>
+        <h1>Notícias sobre Desenvolvimento Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="lista.html">Lista</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="https://www.exemplo.com" target="_blank">Link Externo</a></li>
+            </ul>
+        </nav>
+    </header>
 
-name: CI
+    <main>
+        <section>
+            <h2>Front-end</h2>
+            <article>
+                <h3>CSS Zen Garden</h3>
+                <img src="zen_garden.jpg" alt="CSS Zen Garden" width="200">
+                <p>O CSS Zen Garden é um site que demonstra como o design pode ser transformado com CSS.</p>
+            </article>
+            <article>
+                <h3>CSS Bootstrap</h3>
+                <img src="bootstrap.jpg" alt="CSS Bootstrap" width="200">
+                <p>O Bootstrap é uma framework popular para o desenvolvimento de sites responsivos.</p>
+            </article>
+        </section>
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+        <section>
+            <h2>Back-end</h2>
+            <article>
+                <h3>PHP: Hypertext Preprocessor</h3>
+                <img src="php.jpg" alt="PHP" width="200">
+                <p>PHP é uma linguagem de script usada para o desenvolvimento de sites dinâmicos.</p>
+            </article>
+            <article>
+                <h3>Node.js</h3>
+                <img src="nodejs.jpg" alt="Node.js" width="200">
+                <p>Node.js é uma plataforma de desenvolvimento baseada em JavaScript para servidores.</p>
+            </article>
+        </section>
+    </main>
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    <footer>
+        <p>Desenvolvido por: Seu Nome</p>
+    </footer>
+</body>
+</html>
